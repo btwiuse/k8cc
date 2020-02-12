@@ -78,7 +78,6 @@ spec:
         - k8cc
         args:
         - controller
-        - -logtostderr=true
         resources:
           requests:
             cpu: 100m

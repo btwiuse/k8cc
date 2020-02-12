@@ -81,7 +81,6 @@ spec:
         - k8cc
         args:
         - api
-        - -logtostderr=true
         resources:
           requests:
             cpu: 100m
