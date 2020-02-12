@@ -12,7 +12,6 @@ gen:
 	go generate ./...
 
 docker:
-	docker build -t "btwiuse/k8cc-api:latest" -f Dockerfile.api .
-	docker build -t "btwiuse/k8cc-controller:latest" -f Dockerfile.ctrl .
+	docker build -t "btwiuse/k8cc:latest" -f Dockerfile .
 
 .PHONY: all test gen docker

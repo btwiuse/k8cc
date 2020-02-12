@@ -72,8 +72,13 @@ spec:
     spec:
       containers:
       - name: k8cc-controller
-        image: btwiuse/k8cc-controller:latest
+        image: btwiuse/k8cc:latest
         imagePullPolicy: Always
+        command:
+        - k8cc
+        args:
+        - controller
+        - -logtostderr=true
         resources:
           requests:
             cpu: 100m
