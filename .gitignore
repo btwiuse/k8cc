@@ -11,8 +11,9 @@
 *.out
 
 # executables
-/k8cc-api
-/k8cc-controller
+/api
+/controller
+/k8cc
 
 # editor ignores
 *.swp

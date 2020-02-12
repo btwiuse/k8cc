@@ -1,4 +1,4 @@
-package main
+package controller
 
 import (
 	"flag"
@@ -15,12 +15,13 @@ import (
 	"github.com/mbrt/k8cc/pkg/controller/distccclientclaim"
 )
 
-func main() {
+func RunController(args []string) {
 	var (
-		kubeConfig    = flag.String("kube.config", "", "Kubeconfig path")
-		kubeMasterURL = flag.String("kube.master-url", "", "Kubernetes master URL")
+		fset          = flag.NewFlagSet("api", flag.ExitOnError)
+		kubeConfig    = fset.String("kube.config", "", "Kubeconfig path")
+		kubeMasterURL = fset.String("kube.master-url", "", "Kubernetes master URL")
 	)
-	flag.Parse()
+	fset.Parse(args)
 
 	sharedClient, err := controller.NewSharedClient(*kubeMasterURL, *kubeConfig)
 	if err != nil {

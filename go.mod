@@ -3,6 +3,7 @@ module github.com/mbrt/k8cc
 go 1.14
 
 require (
+	github.com/alexpantyukhin/go-pattern-match v0.0.0-20200207085858-033d90da7458
 	github.com/go-kit/kit v0.9.0
 	github.com/go-logfmt/logfmt v0.5.0 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect

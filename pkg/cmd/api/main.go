@@ -1,4 +1,4 @@
-package main
+package api
 
 import (
 	"flag"
@@ -14,13 +14,14 @@ import (
 	"github.com/mbrt/k8cc/pkg/controller"
 )
 
-func main() {
+func RunApiServer(args []string) {
 	var (
-		httpAddr      = flag.String("http.addr", ":8080", "HTTP listen address")
-		kubeConfig    = flag.String("kube.config", "", "Kubeconfig path")
-		kubeMasterURL = flag.String("kube.master-url", "", "Kubernetes master URL")
+		fset          = flag.NewFlagSet("api", flag.ExitOnError)
+		httpAddr      = fset.String("http.addr", ":8080", "HTTP listen address")
+		kubeConfig    = fset.String("kube.config", "", "Kubeconfig path")
+		kubeMasterURL = fset.String("kube.master-url", "", "Kubernetes master URL")
 	)
-	flag.Parse()
+	fset.Parse(args)
 
 	var logger log.Logger
 	{

@@ -1,3 +1,6 @@
+# github.com/alexpantyukhin/go-pattern-match v0.0.0-20200207085858-033d90da7458
+## explicit
+github.com/alexpantyukhin/go-pattern-match
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
 # github.com/evanphx/json-patch v4.2.0+incompatible
