@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/mbrt/k8cc/pkg/cmd/controller"
+	"github.com/btwiuse/k8cc/pkg/cmd/controller"
 )
 
 func main() {

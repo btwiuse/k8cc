@@ -1,4 +1,4 @@
-module github.com/mbrt/k8cc
+module github.com/btwiuse/k8cc
 
 go 1.14
 

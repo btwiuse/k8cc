@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/mbrt/k8cc/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/mbrt/k8cc/pkg/client/informers/externalversions/internalinterfaces"
-	k8ccio "github.com/mbrt/k8cc/pkg/client/informers/externalversions/k8cc.io"
+	versioned "github.com/btwiuse/k8cc/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/btwiuse/k8cc/pkg/client/informers/externalversions/internalinterfaces"
+	k8ccio "github.com/btwiuse/k8cc/pkg/client/informers/externalversions/k8cc.io"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

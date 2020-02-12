@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-kit/kit/endpoint"
 
-	"github.com/mbrt/k8cc/pkg/data"
+	"github.com/btwiuse/k8cc/pkg/data"
 )
 
 // Endpoints collects all the api endpoints in a single struct

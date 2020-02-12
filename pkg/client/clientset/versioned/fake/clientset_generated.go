@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/mbrt/k8cc/pkg/client/clientset/versioned"
-	k8ccv1alpha1 "github.com/mbrt/k8cc/pkg/client/clientset/versioned/typed/k8cc.io/v1alpha1"
-	fakek8ccv1alpha1 "github.com/mbrt/k8cc/pkg/client/clientset/versioned/typed/k8cc.io/v1alpha1/fake"
+	clientset "github.com/btwiuse/k8cc/pkg/client/clientset/versioned"
+	k8ccv1alpha1 "github.com/btwiuse/k8cc/pkg/client/clientset/versioned/typed/k8cc.io/v1alpha1"
+	fakek8ccv1alpha1 "github.com/btwiuse/k8cc/pkg/client/clientset/versioned/typed/k8cc.io/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

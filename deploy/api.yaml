@@ -75,7 +75,7 @@ spec:
     spec:
       containers:
       - name: k8cc-api
-        image: mbrt/k8cc-api:latest
+        image: btwiuse/k8cc-api:latest
         imagePullPolicy: Always
         resources:
           requests:

@@ -11,7 +11,7 @@ import (
 	appslisters "k8s.io/client-go/listers/apps/v1"
 	corelisters "k8s.io/client-go/listers/core/v1"
 
-	k8ccerr "github.com/mbrt/k8cc/pkg/errors"
+	k8ccerr "github.com/btwiuse/k8cc/pkg/errors"
 )
 
 // Lister is a capable of listing runtime objects of a certain type.

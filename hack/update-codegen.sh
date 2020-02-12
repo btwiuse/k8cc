@@ -23,6 +23,6 @@ CODEGEN_PKG=${CODEGEN_PKG:-$(cd ${SCRIPT_ROOT}; ls -d -1 ./vendor/k8s.io/code-ge
 CODEGEN_PKG=$HOME/go/src/k8s.io/code-generator
 
 ${CODEGEN_PKG}/generate-groups.sh "deepcopy,client,informer,lister" \
-  github.com/mbrt/k8cc/pkg/client github.com/mbrt/k8cc/pkg/apis \
+  github.com/btwiuse/k8cc/pkg/client github.com/btwiuse/k8cc/pkg/apis \
   k8cc.io:v1alpha1 \
   --go-header-file ${SCRIPT_ROOT}/hack/custom-boilerplate.go.txt

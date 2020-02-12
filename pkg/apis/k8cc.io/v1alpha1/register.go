@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	k8cc "github.com/mbrt/k8cc/pkg/apis/k8cc.io"
+	k8cc "github.com/btwiuse/k8cc/pkg/apis/k8cc.io"
 )
 
 // SchemeGroupVersion is group version used to register these objects

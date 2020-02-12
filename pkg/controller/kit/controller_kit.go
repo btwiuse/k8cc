@@ -23,9 +23,9 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 
-	k8ccscheme "github.com/mbrt/k8cc/pkg/client/clientset/versioned/scheme"
-	sharedctr "github.com/mbrt/k8cc/pkg/controller"
-	k8ccerr "github.com/mbrt/k8cc/pkg/errors"
+	k8ccscheme "github.com/btwiuse/k8cc/pkg/client/clientset/versioned/scheme"
+	sharedctr "github.com/btwiuse/k8cc/pkg/controller"
+	k8ccerr "github.com/btwiuse/k8cc/pkg/errors"
 )
 
 const (

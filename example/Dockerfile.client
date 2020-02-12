@@ -1,4 +1,4 @@
-FROM mbrt/distcc-ubuntu:latest
+FROM btwiuse/distcc-ubuntu:latest
 
 RUN apt update                    && \
     apt install -y openssh-server && \

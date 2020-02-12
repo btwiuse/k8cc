@@ -19,8 +19,8 @@ limitations under the License.
 package k8cc
 
 import (
-	internalinterfaces "github.com/mbrt/k8cc/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/mbrt/k8cc/pkg/client/informers/externalversions/k8cc.io/v1alpha1"
+	internalinterfaces "github.com/btwiuse/k8cc/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/btwiuse/k8cc/pkg/client/informers/externalversions/k8cc.io/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

@@ -21,8 +21,8 @@ package v1alpha1
 import (
 	"time"
 
-	v1alpha1 "github.com/mbrt/k8cc/pkg/apis/k8cc.io/v1alpha1"
-	scheme "github.com/mbrt/k8cc/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/btwiuse/k8cc/pkg/apis/k8cc.io/v1alpha1"
+	scheme "github.com/btwiuse/k8cc/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

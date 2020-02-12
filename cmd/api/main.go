@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/mbrt/k8cc/pkg/cmd/api"
+	"github.com/btwiuse/k8cc/pkg/cmd/api"
 )
 
 func main() {

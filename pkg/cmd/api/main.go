@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-kit/kit/log"
 
-	"github.com/mbrt/k8cc/pkg/apiserver/service"
-	"github.com/mbrt/k8cc/pkg/controller"
+	"github.com/btwiuse/k8cc/pkg/apiserver/service"
+	"github.com/btwiuse/k8cc/pkg/controller"
 )
 
 func RunApiServer(args []string) {

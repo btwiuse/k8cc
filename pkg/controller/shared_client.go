@@ -7,8 +7,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	clientset "github.com/mbrt/k8cc/pkg/client/clientset/versioned"
-	informers "github.com/mbrt/k8cc/pkg/client/informers/externalversions"
+	clientset "github.com/btwiuse/k8cc/pkg/client/clientset/versioned"
+	informers "github.com/btwiuse/k8cc/pkg/client/informers/externalversions"
 )
 
 // SharedClient provides a shared connection for all operators

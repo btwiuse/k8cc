@@ -9,10 +9,10 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/mbrt/k8cc/pkg/controller"
-	"github.com/mbrt/k8cc/pkg/controller/distcc"
-	"github.com/mbrt/k8cc/pkg/controller/distccclaim"
-	"github.com/mbrt/k8cc/pkg/controller/distccclientclaim"
+	"github.com/btwiuse/k8cc/pkg/controller"
+	"github.com/btwiuse/k8cc/pkg/controller/distcc"
+	"github.com/btwiuse/k8cc/pkg/controller/distccclaim"
+	"github.com/btwiuse/k8cc/pkg/controller/distccclientclaim"
 )
 
 func RunController(args []string) {

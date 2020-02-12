@@ -10,10 +10,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	fakekubeclient "k8s.io/client-go/kubernetes/fake"
 
-	k8ccv1alpha1 "github.com/mbrt/k8cc/pkg/apis/k8cc.io/v1alpha1"
-	fakeclient "github.com/mbrt/k8cc/pkg/client/clientset/versioned/fake"
-	informers "github.com/mbrt/k8cc/pkg/client/informers/externalversions"
-	"github.com/mbrt/k8cc/pkg/controller/kit"
+	k8ccv1alpha1 "github.com/btwiuse/k8cc/pkg/apis/k8cc.io/v1alpha1"
+	fakeclient "github.com/btwiuse/k8cc/pkg/client/clientset/versioned/fake"
+	informers "github.com/btwiuse/k8cc/pkg/client/informers/externalversions"
+	"github.com/btwiuse/k8cc/pkg/controller/kit"
 )
 
 type controllerTest struct {

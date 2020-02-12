@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: mbrt/distcc-client-ubuntu:latest
+          image: btwiuse/distcc-client-ubuntu:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 22

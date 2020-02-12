@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mbrt/k8cc/pkg/cmd/api"
-	"github.com/mbrt/k8cc/pkg/cmd/controller"
+	"github.com/btwiuse/k8cc/pkg/cmd/api"
+	"github.com/btwiuse/k8cc/pkg/cmd/controller"
 
 	"github.com/alexpantyukhin/go-pattern-match"
 )
